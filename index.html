@@ -25,6 +25,14 @@ body{background:var(--black);color:var(--cream);font-family:"EB Garamond",serif;
 .nav-block{display:flex;gap:1.2rem;flex-shrink:0;}
 .nav-block a{font-size:12px;color:var(--gray);text-decoration:none;font-family:"Tiro Bangla",serif;transition:color 0.15s;}
 .nav-block a:hover,.nav-block a.active{color:var(--cream);}
+/* CONTACT SECTION */
+.contact-section{max-width:1100px;margin:0 auto;padding:0 2.5rem 3rem;}
+.contact-divider{display:flex;align-items:center;gap:1rem;margin-bottom:2rem;}
+.contact-divider::before,.contact-divider::after{content:"";flex:1;height:1px;background:var(--border);}
+.contact-divider-text{color:var(--red);letter-spacing:3px;font-size:10px;white-space:nowrap;padding:0 6px;}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);}
+.contact-card{background:var(--black);padding:1.5rem;}
+.contact-card-label{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gray);margin-bottom:1rem;}
 
 /* SOCIAL BAR */
 .social-bar{background:#111;border-bottom:1px solid var(--border);padding:0 2.5rem;}
